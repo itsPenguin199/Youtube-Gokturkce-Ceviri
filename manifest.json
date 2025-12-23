@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Göktürkçe Çevirici",
+  "version": "1.0",
+  "description": "YouTube metinlerini Göktürk alfabesine çevirir.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ]
+}

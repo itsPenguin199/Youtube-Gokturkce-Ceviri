@@ -1,0 +1,1 @@
+video açtığınızda başlık görünmeyebiliyor f5 atarsanız düzelecektir

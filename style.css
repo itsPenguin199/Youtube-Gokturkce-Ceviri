@@ -1,0 +1,50 @@
+/* YouTube Turquoise Theme - Custom Logo & Progress Bar */
+
+ytd-topbar-logo-renderer #logo-icon,
+ytd-topbar-logo-renderer #country-code,
+#logo-icon svg {
+    display: none !important;
+}
+
+ytd-topbar-logo-renderer a::before {
+    content: "🐺 𐰖𐰆𐰆𐱅𐰆𐰉𐰀";
+    font-family: 'Segoe UI Historic', 'Noto Sans Old Turkic', sans-serif !important;
+    font-size: 20px !important;
+    color: #40E0D0 !important;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+}
+
+.ytp-play-progress,
+.ytp-scrubber-button,
+.ytp-swatch-background-color,
+.ytp-volume-slider-handle::before {
+    background: #40E0D0 !important;
+    background-color: #40E0D0 !important;
+}
+
+.ytp-scrubber-button {
+    border: none !important;
+    box-shadow: 0 0 8px rgba(64, 224, 208, 0.5) !important;
+}
+
+.ytp-settings-button.ytp-hd-quality-badge::after,
+.ytp-swatch-color {
+    background-color: #40E0D0 !important;
+    color: #40E0D0 !important;
+}
+
+.ytp-progress-list {
+    background: rgba(255, 255, 255, 0.15) !important;
+}
+
+.gokturk-v2 {
+    direction: rtl !important;
+    unicode-bidi: bidi-override !important;
+    text-align: right !important;
+    display: block !important;
+    font-family: 'Segoe UI Historic', sans-serif !important;
+    line-height: 1.5;
+}
