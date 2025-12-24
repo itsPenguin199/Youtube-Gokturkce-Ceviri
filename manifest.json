@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "YouTube Göktürkçe Çevirici",
+  "name": "YouTube Gokturkce Cevirici",
   "version": "1.0",
-  "description": "YouTube metinlerini Göktürk alfabesine çevirir.",
+  "description": "YouTube metinlerini Gokturk alfabesine cevirir.",
   "permissions": ["activeTab"],
   "content_scripts": [
     {
